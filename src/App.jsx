@@ -19,6 +19,16 @@ function App() {
           </button> 
         </div>
       </header>
+      <div className='DropDownBar'>
+        <select name="장르" className='DropDownBar__genre'>
+          <option value="action">액션</option>
+          <option value="comedy">코미디</option>
+        </select>
+        <select name="정렬" className='DropDownBar__sort'>
+          <option value="최신순">최신순</option>
+          <option value="별점순">별점순</option>
+        </select>
+      </div>
     </main>
   )
 }
