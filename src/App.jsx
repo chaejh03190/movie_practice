@@ -20,11 +20,13 @@ function App() {
         </div>
       </header>
       <div className='DropDownBar'>
-        <select name="장르" className='DropDownBar__genre'>
+        <select className='DropDownBar__genre'>
+          <option value="장르">장르</option>
           <option value="action">액션</option>
           <option value="comedy">코미디</option>
         </select>
-        <select name="정렬" className='DropDownBar__sort'>
+        <select className='DropDownBar__sort'>
+          <option value="정렬">정렬</option>
           <option value="최신순">최신순</option>
           <option value="별점순">별점순</option>
         </select>
